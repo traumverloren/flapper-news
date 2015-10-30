@@ -14,6 +14,9 @@ gem 'angular-rails-templates'
 gem 'responders'
 gem 'angular_rails_csrf'
 
+# user authentication
+gem 'devise', '~> 3.4.0'
+
 group :development, :test do
   gem 'byebug'
 end
