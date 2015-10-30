@@ -4,6 +4,7 @@ angular.module('flapperNews')
   'posts',
   function($scope, posts) {
     $scope.posts = posts.posts;
+
     $scope.addPost = function() {
       if(!$scope.title || $scope.title === '') { return; }
       posts.create({
@@ -13,7 +14,8 @@ angular.module('flapperNews')
       $scope.title = '';
       $scope.link = '';
     };
+
     $scope.incrementUpvotes = function(post) {
-      post.upvotes += 1;
+      posts.upvote(post);
     };
   }]);
