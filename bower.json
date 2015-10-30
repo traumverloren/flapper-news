@@ -5,8 +5,6 @@
     "Stephanie Nemeth <traumverloren@gmail.com>"
   ],
   "description": "AngularJS 1.2 + Rails",
-  "main": "",
-  "moduleType": [],
   "license": "MIT",
   "ignore": [
     "**/.*",
