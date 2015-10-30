@@ -9,8 +9,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# needed for angular and rails api to be happy...
 gem 'angular-rails-templates'
 gem 'responders'
+gem 'angular_rails_csrf'
 
 group :development, :test do
   gem 'byebug'
