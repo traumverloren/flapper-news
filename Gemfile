@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'angular-rails-templates'
 gem 'responders'
 gem 'angular_rails_csrf'
+gem 'angular_csrf'
 
 # user authentication
 gem 'devise', '~> 3.4.0'
